@@ -1,0 +1,2722 @@
+[
+  {
+    "vehicle": [
+      {
+        "id": "d9727a9b-7337-45b7-b104-99bb914e69ba",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 22892,
+        "color": "Red",
+        "vin": "1HGCM82633A123456",
+        "mileage": 73285,
+        "created_at": "2023-10-03T12:29:32.039Z",
+        "updated_at": "2023-10-04T02:47:47.383Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0adf87fb-d99b-4ef6-83a3-9e8b2fb0ec57",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 22885,
+        "color": "Blue",
+        "vin": "2T1BURHE0GC123456",
+        "mileage": 65539,
+        "created_at": "2023-10-03T05:18:16.973Z",
+        "updated_at": "2023-10-03T17:59:02.419Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93575b17-6635-418d-8d45-b2451aa6ba47",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 5083,
+        "color": "Green",
+        "vin": "1FTFW1EF0EFA12345",
+        "mileage": 76630,
+        "created_at": "2023-10-04T01:45:18.340Z",
+        "updated_at": "2023-10-03T23:40:34.197Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "525b6662-4b9e-4fa4-aaef-f30f904ad7ee",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 65219,
+        "color": "Black",
+        "vin": "1GCRCPEC6HZ123456",
+        "mileage": 42969,
+        "created_at": "2023-10-03T12:50:41.030Z",
+        "updated_at": "2023-10-03T14:27:44.037Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4334031e-d1ce-4b2b-9166-b078abe8a7a0",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 43706,
+        "color": "White",
+        "vin": "1N4AL3AP1JC123456",
+        "mileage": 30578,
+        "created_at": "2023-10-03T05:38:52.644Z",
+        "updated_at": "2023-10-04T00:00:09.196Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "9d21f906-c237-473e-8119-b8f9de9313ef",
+        "name": "Oil Change",
+        "description": "Keep your engine running smoothly with regular oil changes.",
+        "cost": 93520,
+        "duration": 63376,
+        "created_at": "2023-10-03T19:04:48.620Z",
+        "updated_at": "2023-10-04T04:36:22.912Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "09791b2d-0bd4-4176-b774-2f10eaf7549c",
+        "name": "Tire Rotation",
+        "description": "Extend the life of your tires with regular rotations.",
+        "cost": 74612,
+        "duration": 48300,
+        "created_at": "2023-10-03T14:11:12.701Z",
+        "updated_at": "2023-10-03T11:47:17.504Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "72627c5b-342d-4a68-bd70-e8b9414de523",
+        "name": "Brake Inspection",
+        "description": "Ensure your brakes are in good working condition.",
+        "cost": 48751,
+        "duration": 94636,
+        "created_at": "2023-10-03T10:32:36.821Z",
+        "updated_at": "2023-10-03T05:17:59.725Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "acf43612-bf66-4dd0-b0b6-7d680a392e04",
+        "name": "Battery Replacement",
+        "description": "Replace your old battery with a new one for reliable starting.",
+        "cost": 43443,
+        "duration": 94031,
+        "created_at": "2023-10-04T01:28:07.622Z",
+        "updated_at": "2023-10-03T12:42:19.298Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "14e11783-1c25-473b-9af5-6c6266e61a2b",
+        "name": "Engine Tune-Up",
+        "description": "Optimize your engine's performance with a tune-up.",
+        "cost": 4555,
+        "duration": 94314,
+        "created_at": "2023-10-03T23:59:45.054Z",
+        "updated_at": "2023-10-03T16:16:32.540Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "mechanic": [
+      {
+        "id": "74e129c4-5b05-420a-9254-e98310996f57",
+        "first_name": "John",
+        "last_name": "Smith",
+        "experience": 3155,
+        "specialization": "Engine Repair",
+        "rating": 74452,
+        "created_at": "2023-10-03T20:04:21.591Z",
+        "updated_at": "2023-10-03T20:46:29.561Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "25d02dab-bc0b-43ff-a036-2f7eadb17878",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "experience": 61763,
+        "specialization": "Transmission Service",
+        "rating": 43326,
+        "created_at": "2023-10-03T15:11:40.144Z",
+        "updated_at": "2023-10-03T06:57:46.292Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "22c22435-7421-4d86-96a0-487632b48a54",
+        "first_name": "David",
+        "last_name": "Williams",
+        "experience": 21314,
+        "specialization": "Electrical Systems",
+        "rating": 55655,
+        "created_at": "2023-10-03T20:14:14.019Z",
+        "updated_at": "2023-10-03T11:53:40.938Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1247f2c3-861e-47cc-90f4-541fcbc35d83",
+        "first_name": "Daniel",
+        "last_name": "Jones",
+        "experience": 40837,
+        "specialization": "Suspension and Steering",
+        "rating": 82875,
+        "created_at": "2023-10-03T15:16:31.154Z",
+        "updated_at": "2023-10-03T16:32:25.955Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "68462112-7d7b-4fc1-ae5f-01144e5b8ae9",
+        "first_name": "Christopher",
+        "last_name": "Brown",
+        "experience": 118,
+        "specialization": "Air Conditioning",
+        "rating": 66619,
+        "created_at": "2023-10-03T17:28:39.943Z",
+        "updated_at": "2023-10-03T16:18:38.783Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "3fb7103d-2bdd-46c8-9b64-342d32366417",
+        "date": "2023-10-03T13:09:57.971Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-03T17:54:31.541Z",
+        "updated_at": "2023-10-03T15:36:16.240Z",
+        "service_id": "14e11783-1c25-473b-9af5-6c6266e61a2b",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "93575b17-6635-418d-8d45-b2451aa6ba47"
+      },
+      {
+        "id": "d04c4558-0081-4b2f-b25b-325475f5cb36",
+        "date": "2023-10-03T23:33:56.108Z",
+        "status": "In Progress",
+        "created_at": "2023-10-03T12:42:41.555Z",
+        "updated_at": "2023-10-03T07:33:30.504Z",
+        "service_id": "9d21f906-c237-473e-8119-b8f9de9313ef",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4334031e-d1ce-4b2b-9166-b078abe8a7a0"
+      },
+      {
+        "id": "be4c361a-d3f4-4be0-b47a-bb5b59533ac7",
+        "date": "2023-10-03T13:13:42.159Z",
+        "status": "Completed",
+        "created_at": "2023-10-03T11:56:59.756Z",
+        "updated_at": "2023-10-04T04:24:21.072Z",
+        "service_id": "9d21f906-c237-473e-8119-b8f9de9313ef",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "93575b17-6635-418d-8d45-b2451aa6ba47"
+      },
+      {
+        "id": "92f5d29e-a1f2-43e0-b919-5ab26e16375c",
+        "date": "2023-10-03T17:28:31.437Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-03T16:48:23.116Z",
+        "updated_at": "2023-10-03T05:02:38.719Z",
+        "service_id": "14e11783-1c25-473b-9af5-6c6266e61a2b",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d9727a9b-7337-45b7-b104-99bb914e69ba"
+      },
+      {
+        "id": "940d6de5-47bb-4b25-9989-20b0b8ee35cc",
+        "date": "2023-10-03T07:58:41.680Z",
+        "status": "Rescheduled",
+        "created_at": "2023-10-03T08:01:13.782Z",
+        "updated_at": "2023-10-03T23:51:13.560Z",
+        "service_id": "9d21f906-c237-473e-8119-b8f9de9313ef",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4334031e-d1ce-4b2b-9166-b078abe8a7a0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "560fc3df-0694-4e2f-afb2-f0edb62cd7a9",
+        "email": "Ophelia20@roq.tech",
+        "firstName": "Lonny",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2547577",
+        "tenantId": null
+      },
+      {
+        "reference": "2e47d477-420f-44e4-99e6-5ef38981c327",
+        "email": "Berry_Trantow@roq.tech",
+        "firstName": "Hallie",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1107.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "32192a70-6b62-41eb-90ff-f5a3ad08608a",
+        "email": "Modesta.Zboncak98@roq.tech",
+        "firstName": "Arthur",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73967254",
+        "tenantId": null
+      },
+      {
+        "reference": "644af0fd-e727-4953-8bd8-053ef02491be",
+        "email": "Cleveland_Boyer@roq.tech",
+        "firstName": "Lucie",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55805773",
+        "tenantId": null
+      },
+      {
+        "reference": "1013bbbb-9800-4292-87a6-9933206ad601",
+        "email": "Calista_Stoltenberg@roq.tech",
+        "firstName": "Anahi",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/39.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "fac473ba-03cc-4dab-bb41-bee684610b4b",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 85853,
+        "color": "Red",
+        "vin": "1HGCM82633A123456",
+        "mileage": 21257,
+        "created_at": "2023-10-03T23:38:21.070Z",
+        "updated_at": "2023-10-03T19:47:37.134Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aad950b2-5a46-4f8a-9a0d-a5df484a50fa",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 57504,
+        "color": "Blue",
+        "vin": "2T1BR12E7YC123456",
+        "mileage": 48141,
+        "created_at": "2023-10-03T18:59:12.973Z",
+        "updated_at": "2023-10-03T13:10:58.347Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7870d9d0-468d-4fda-9265-ebf80601158a",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 34016,
+        "color": "Black",
+        "vin": "1FAFP42X5XF123456",
+        "mileage": 69420,
+        "created_at": "2023-10-03T09:24:37.979Z",
+        "updated_at": "2023-10-03T14:33:13.756Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb2572e9-e88c-44d3-a2a1-941fdae0100c",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 83551,
+        "color": "White",
+        "vin": "1GCEC14W3YZ123456",
+        "mileage": 91696,
+        "created_at": "2023-10-03T06:48:01.294Z",
+        "updated_at": "2023-10-03T13:45:14.126Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ad90d55-1316-431a-bd5e-ef1ef094cbd1",
+        "make": "BMW",
+        "model": "X5",
+        "year": 95069,
+        "color": "Silver",
+        "vin": "5UXKR0C56H0V12345",
+        "mileage": 58947,
+        "created_at": "2023-10-03T16:32:19.009Z",
+        "updated_at": "2023-10-03T19:58:26.956Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "399ef21c-7d33-4f6c-b452-77ea49f6674a",
+        "name": "Oil Change",
+        "description": "Regular maintenance service for your vehicle",
+        "cost": 69350,
+        "duration": 19239,
+        "created_at": "2023-10-03T11:29:53.945Z",
+        "updated_at": "2023-10-03T09:23:57.106Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "50b19bcf-3416-4d8e-a97d-eba85529cfb2",
+        "name": "Tire Rotation",
+        "description": "Ensures even wear on your tires",
+        "cost": 26466,
+        "duration": 82929,
+        "created_at": "2023-10-04T03:03:51.282Z",
+        "updated_at": "2023-10-03T10:54:18.011Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8b2d4181-4824-4cb1-87f4-ce7bf3720ccb",
+        "name": "Brake Inspection",
+        "description": "Checks brake pads and rotors for wear",
+        "cost": 52306,
+        "duration": 89129,
+        "created_at": "2023-10-03T19:56:58.979Z",
+        "updated_at": "2023-10-03T22:58:23.133Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7ce587af-76cf-425b-bd75-b07927ad2f47",
+        "name": "Battery Replacement",
+        "description": "Replaces old battery with a new one",
+        "cost": 70138,
+        "duration": 38644,
+        "created_at": "2023-10-03T17:15:46.631Z",
+        "updated_at": "2023-10-03T21:04:00.444Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2f2c66ac-0b06-4e98-acd6-0b4350e761b7",
+        "name": "Engine Tune-Up",
+        "description": "Optimizes engine performance",
+        "cost": 52701,
+        "duration": 8558,
+        "created_at": "2023-10-03T13:56:27.451Z",
+        "updated_at": "2023-10-03T18:22:33.834Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "mechanic": [
+      {
+        "id": "cf153702-4dfd-4137-a2d9-1c76fbe95b42",
+        "first_name": "Robert",
+        "last_name": "Johnson",
+        "experience": 31868,
+        "specialization": "Engine Repair",
+        "rating": 6377,
+        "created_at": "2023-10-03T15:14:04.179Z",
+        "updated_at": "2023-10-03T10:49:17.793Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a9732858-6c67-4445-a5ff-7a2b33ea6b4b",
+        "first_name": "Jennifer",
+        "last_name": "Brown",
+        "experience": 89548,
+        "specialization": "Electrical Systems",
+        "rating": 72075,
+        "created_at": "2023-10-03T22:04:11.384Z",
+        "updated_at": "2023-10-03T07:09:11.284Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "798f161d-84ce-4eda-a8bc-44a6bb8c2c1e",
+        "first_name": "William",
+        "last_name": "Smith",
+        "experience": 17570,
+        "specialization": "Brake Service",
+        "rating": 4517,
+        "created_at": "2023-10-04T01:48:08.012Z",
+        "updated_at": "2023-10-03T19:22:08.074Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "45295302-888e-44c4-9ce3-42e7421750d2",
+        "first_name": "Emily",
+        "last_name": "Davis",
+        "experience": 61345,
+        "specialization": "Suspension and Steering",
+        "rating": 72519,
+        "created_at": "2023-10-03T20:56:18.904Z",
+        "updated_at": "2023-10-03T07:16:53.447Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e3fd9593-640b-44eb-838e-846438dc968c",
+        "first_name": "Daniel",
+        "last_name": "Miller",
+        "experience": 73807,
+        "specialization": "Air Conditioning",
+        "rating": 81454,
+        "created_at": "2023-10-03T12:18:58.652Z",
+        "updated_at": "2023-10-03T23:27:08.604Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "1a7b6d94-6e64-47df-8db7-907cb90c0e20",
+        "date": "2023-10-03T14:44:40.398Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-03T21:47:05.089Z",
+        "updated_at": "2023-10-03T09:30:02.618Z",
+        "service_id": "7ce587af-76cf-425b-bd75-b07927ad2f47",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "bb2572e9-e88c-44d3-a2a1-941fdae0100c"
+      },
+      {
+        "id": "824607ba-9016-4d3e-aa6f-f7d8e2404ffa",
+        "date": "2023-10-03T10:36:58.916Z",
+        "status": "In Progress",
+        "created_at": "2023-10-03T05:45:03.594Z",
+        "updated_at": "2023-10-03T13:35:06.154Z",
+        "service_id": "2f2c66ac-0b06-4e98-acd6-0b4350e761b7",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7870d9d0-468d-4fda-9265-ebf80601158a"
+      },
+      {
+        "id": "7d8cd01d-10f0-46f5-b186-0715f9dc33b8",
+        "date": "2023-10-03T11:48:58.470Z",
+        "status": "Completed",
+        "created_at": "2023-10-03T20:56:01.819Z",
+        "updated_at": "2023-10-03T04:51:28.035Z",
+        "service_id": "2f2c66ac-0b06-4e98-acd6-0b4350e761b7",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7870d9d0-468d-4fda-9265-ebf80601158a"
+      },
+      {
+        "id": "19a6e5f2-3bc2-4c1f-9121-e08d697c76e1",
+        "date": "2023-10-03T10:37:05.179Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-04T01:55:30.218Z",
+        "updated_at": "2023-10-03T08:15:59.853Z",
+        "service_id": "2f2c66ac-0b06-4e98-acd6-0b4350e761b7",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "bb2572e9-e88c-44d3-a2a1-941fdae0100c"
+      },
+      {
+        "id": "4fdd5825-c72d-4711-b53d-19e80c8a69d8",
+        "date": "2023-10-03T05:12:26.659Z",
+        "status": "Rescheduled",
+        "created_at": "2023-10-03T10:13:23.269Z",
+        "updated_at": "2023-10-03T11:48:30.875Z",
+        "service_id": "399ef21c-7d33-4f6c-b452-77ea49f6674a",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fac473ba-03cc-4dab-bb41-bee684610b4b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8b0f869b-1786-423b-8855-94012a8e804c",
+        "email": "Jillian_Kilback@roq.tech",
+        "firstName": "Mylene",
+        "lastName": "Franecki-Gorczany",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85145671",
+        "tenantId": null
+      },
+      {
+        "reference": "5b4e2763-1d3d-4ca2-a15e-d89e9c223ada",
+        "email": "Berneice_Altenwerth@roq.tech",
+        "firstName": "Leopoldo",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5927413",
+        "tenantId": null
+      },
+      {
+        "reference": "20562397-4a21-4752-9b64-41e69d6e6f54",
+        "email": "Christ85@roq.tech",
+        "firstName": "Raina",
+        "lastName": "O'Hara-Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/230.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "036389a6-e05d-4b3e-9136-780dd420b6f2",
+        "email": "Queenie_Cole15@roq.tech",
+        "firstName": "Destinee",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76850077",
+        "tenantId": null
+      },
+      {
+        "reference": "6c73323d-fd6c-46db-845d-2fa21e7b4041",
+        "email": "Josue69@roq.tech",
+        "firstName": "Winona",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53635656",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "a9317259-9637-4c0e-a442-78529146e96f",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 84145,
+        "color": "Red",
+        "vin": "1HGCM82633A123456",
+        "mileage": 79178,
+        "created_at": "2023-10-03T19:14:38.254Z",
+        "updated_at": "2023-10-03T11:57:37.021Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6698245-5d23-47c6-b97d-3500ee093fc8",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 25755,
+        "color": "Blue",
+        "vin": "2T1BURHE1HC123456",
+        "mileage": 67459,
+        "created_at": "2023-10-04T02:45:04.543Z",
+        "updated_at": "2023-10-03T05:06:58.547Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b5a111a-67bb-4dcd-a660-b1d4ce3d6491",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 17218,
+        "color": "Black",
+        "vin": "1FAFP42X91F123456",
+        "mileage": 79346,
+        "created_at": "2023-10-03T15:45:54.873Z",
+        "updated_at": "2023-10-04T02:48:54.525Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3d75343-bdcb-4212-969e-30b63a1ca083",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 40451,
+        "color": "White",
+        "vin": "1GCEC14X82Z123456",
+        "mileage": 17013,
+        "created_at": "2023-10-04T04:34:39.804Z",
+        "updated_at": "2023-10-03T05:32:16.332Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa71c2a7-7190-48f9-970b-f29d4f19ede8",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 43601,
+        "color": "Silver",
+        "vin": "1N4AL11D45C123456",
+        "mileage": 3247,
+        "created_at": "2023-10-03T19:31:44.191Z",
+        "updated_at": "2023-10-03T05:45:44.606Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "e82fbafe-3899-43a4-a445-06c4176e2093",
+        "name": "Oil Change",
+        "description": "Keep your engine running smoothly.",
+        "cost": 42643,
+        "duration": 83233,
+        "created_at": "2023-10-03T15:33:39.267Z",
+        "updated_at": "2023-10-03T21:48:01.512Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1b1265c6-f825-4608-8ee0-0f557a34c143",
+        "name": "Tire Rotation",
+        "description": "Extend the life of your tires.",
+        "cost": 63092,
+        "duration": 59047,
+        "created_at": "2023-10-03T07:09:30.261Z",
+        "updated_at": "2023-10-03T11:51:06.973Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "81b67800-9891-43d4-9464-81e6a69e436a",
+        "name": "Brake Repair",
+        "description": "Ensure optimal braking performance.",
+        "cost": 61670,
+        "duration": 23837,
+        "created_at": "2023-10-03T05:58:15.120Z",
+        "updated_at": "2023-10-03T13:12:13.031Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "02eb98dd-c930-4aa8-b679-2aaed5164e09",
+        "name": "Battery Replacement",
+        "description": "Reliable power for your vehicle.",
+        "cost": 49442,
+        "duration": 11709,
+        "created_at": "2023-10-03T21:52:01.217Z",
+        "updated_at": "2023-10-03T19:17:41.366Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "df512aae-1c23-45d2-9f67-58dbe313de41",
+        "name": "Engine Tune-Up",
+        "description": "Improve fuel efficiency and performance.",
+        "cost": 33561,
+        "duration": 28200,
+        "created_at": "2023-10-03T23:04:07.193Z",
+        "updated_at": "2023-10-03T22:18:56.321Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "mechanic": [
+      {
+        "id": "76f8ba38-4d96-4867-ae9c-cb1de5549f8c",
+        "first_name": "John",
+        "last_name": "Smith",
+        "experience": 39550,
+        "specialization": "Engine Repair",
+        "rating": 38766,
+        "created_at": "2023-10-03T14:30:22.154Z",
+        "updated_at": "2023-10-03T05:14:00.539Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cb3bf8c8-5800-4059-bfed-490be8b4a135",
+        "first_name": "David",
+        "last_name": "Johnson",
+        "experience": 93836,
+        "specialization": "Transmission Service",
+        "rating": 51922,
+        "created_at": "2023-10-03T09:41:54.409Z",
+        "updated_at": "2023-10-03T05:53:54.421Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6e8d52b7-8b98-49f2-b23a-a89dae92347c",
+        "first_name": "Michael",
+        "last_name": "Williams",
+        "experience": 43430,
+        "specialization": "Electrical Systems",
+        "rating": 20072,
+        "created_at": "2023-10-03T17:39:48.428Z",
+        "updated_at": "2023-10-03T13:04:31.669Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0bad21d0-725f-4edf-9349-e89bc0b90dce",
+        "first_name": "Daniel",
+        "last_name": "Jones",
+        "experience": 22190,
+        "specialization": "Suspension and Steering",
+        "rating": 48522,
+        "created_at": "2023-10-03T14:01:55.929Z",
+        "updated_at": "2023-10-04T00:56:16.118Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "faccb4a2-298f-44e6-a4b6-6896935ed0af",
+        "first_name": "Robert",
+        "last_name": "Brown",
+        "experience": 88997,
+        "specialization": "Air Conditioning",
+        "rating": 59443,
+        "created_at": "2023-10-03T11:28:14.152Z",
+        "updated_at": "2023-10-03T20:12:16.147Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "ddd99370-c90c-4580-aeb4-1ea98a779d1b",
+        "date": "2023-10-03T21:08:15.050Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-03T23:29:11.213Z",
+        "updated_at": "2023-10-04T00:22:42.225Z",
+        "service_id": "1b1265c6-f825-4608-8ee0-0f557a34c143",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "3b5a111a-67bb-4dcd-a660-b1d4ce3d6491"
+      },
+      {
+        "id": "3caf45e8-52d3-4b15-a2ff-7413bcc28e07",
+        "date": "2023-10-03T13:35:37.252Z",
+        "status": "In Progress",
+        "created_at": "2023-10-03T23:23:05.031Z",
+        "updated_at": "2023-10-03T04:50:25.975Z",
+        "service_id": "df512aae-1c23-45d2-9f67-58dbe313de41",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a9317259-9637-4c0e-a442-78529146e96f"
+      },
+      {
+        "id": "7b6b8feb-e3fe-4aca-9ff2-3ce6702291f2",
+        "date": "2023-10-03T18:43:20.275Z",
+        "status": "Completed",
+        "created_at": "2023-10-03T17:35:52.984Z",
+        "updated_at": "2023-10-03T16:29:19.949Z",
+        "service_id": "1b1265c6-f825-4608-8ee0-0f557a34c143",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a9317259-9637-4c0e-a442-78529146e96f"
+      },
+      {
+        "id": "d44ed6af-f8ed-499e-95db-7f33776b3c76",
+        "date": "2023-10-03T22:01:04.420Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-03T13:41:39.572Z",
+        "updated_at": "2023-10-03T04:44:41.178Z",
+        "service_id": "e82fbafe-3899-43a4-a445-06c4176e2093",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "3b5a111a-67bb-4dcd-a660-b1d4ce3d6491"
+      },
+      {
+        "id": "a50ec27e-cf2b-4b58-94ad-3644289d0b6d",
+        "date": "2023-10-03T21:36:05.884Z",
+        "status": "Rescheduled",
+        "created_at": "2023-10-03T04:46:46.011Z",
+        "updated_at": "2023-10-03T07:07:50.156Z",
+        "service_id": "e82fbafe-3899-43a4-a445-06c4176e2093",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f3d75343-bdcb-4212-969e-30b63a1ca083"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4c4ecb3c-1d2a-4c7e-ad27-62164c49d85b",
+        "email": "Amelie17@roq.tech",
+        "firstName": "Miller",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/787.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60b389fa-e11e-4354-afd5-f6e0e05fa189",
+        "email": "Blanca_Senger83@roq.tech",
+        "firstName": "Raphael",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/244.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6ea7b230-1a0a-463d-81ab-9e337f590675",
+        "email": "Desmond.Ondricka@roq.tech",
+        "firstName": "Garett",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7341932",
+        "tenantId": null
+      },
+      {
+        "reference": "0bcf2cbe-3222-4f2c-960f-92e2a6e5daee",
+        "email": "Pauline60@roq.tech",
+        "firstName": "Ludwig",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65771375",
+        "tenantId": null
+      },
+      {
+        "reference": "f9c282f1-b4c0-4658-a31f-2376c28bf2e9",
+        "email": "Fanny.Williamson27@roq.tech",
+        "firstName": "Florencio",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/471.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "d075b68b-d762-441e-83ac-8de49e92ca3d",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 72382,
+        "color": "Red",
+        "vin": "1HGCM82633A123456",
+        "mileage": 47983,
+        "created_at": "2023-10-04T01:17:37.760Z",
+        "updated_at": "2023-10-03T15:19:48.090Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0fe8842-4bbc-411a-a334-a85f33b6ee08",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 813,
+        "color": "Blue",
+        "vin": "2T1BR32E53C123456",
+        "mileage": 54984,
+        "created_at": "2023-10-04T03:44:07.813Z",
+        "updated_at": "2023-10-03T21:13:33.182Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "daf4c5fe-5b2d-4e0c-8e82-4d08d6262372",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 96304,
+        "color": "Black",
+        "vin": "1FAFP53U83G123456",
+        "mileage": 6535,
+        "created_at": "2023-10-03T12:27:13.657Z",
+        "updated_at": "2023-10-03T13:20:08.876Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dff4bf09-4de5-462f-9c05-d671610227e7",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 26180,
+        "color": "White",
+        "vin": "1GCEC14X23Z123456",
+        "mileage": 5381,
+        "created_at": "2023-10-03T04:49:20.659Z",
+        "updated_at": "2023-10-04T01:43:29.135Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aa38e95-ee1e-4c26-84c4-791e704ceb1d",
+        "make": "BMW",
+        "model": "X5",
+        "year": 29764,
+        "color": "Silver",
+        "vin": "5UXFA13575LY12345",
+        "mileage": 9872,
+        "created_at": "2023-10-03T11:22:24.651Z",
+        "updated_at": "2023-10-03T23:08:00.528Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "bc07d5ac-2536-48d5-9ad8-d50b1ac6bb7c",
+        "name": "Oil Change",
+        "description": "Regular maintenance for optimal performance",
+        "cost": 85487,
+        "duration": 17631,
+        "created_at": "2023-10-03T05:02:29.703Z",
+        "updated_at": "2023-10-03T08:18:52.530Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2ab0d6fc-1710-4b70-a49f-fa5abfd5a46d",
+        "name": "Tire Rotation",
+        "description": "Extending the lifespan of your tires",
+        "cost": 47688,
+        "duration": 88523,
+        "created_at": "2023-10-03T19:00:28.379Z",
+        "updated_at": "2023-10-03T16:12:17.845Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7469cf25-1c94-4c80-aea6-a35ec94201b4",
+        "name": "Brake Inspection",
+        "description": "Ensuring safe braking system",
+        "cost": 41591,
+        "duration": 42227,
+        "created_at": "2023-10-03T19:19:38.181Z",
+        "updated_at": "2023-10-04T02:04:06.847Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1f6bda74-32d3-49c2-8649-1a7af8a64b38",
+        "name": "Battery Replacement",
+        "description": "Reliable power for your vehicle",
+        "cost": 81570,
+        "duration": 45204,
+        "created_at": "2023-10-03T07:03:48.956Z",
+        "updated_at": "2023-10-03T21:24:25.659Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3445fd39-e34c-4398-949a-59219785067c",
+        "name": "Wheel Alignment",
+        "description": "Improving handling and tire wear",
+        "cost": 67983,
+        "duration": 67014,
+        "created_at": "2023-10-03T15:32:48.549Z",
+        "updated_at": "2023-10-03T19:49:36.999Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "mechanic": [
+      {
+        "id": "8c768f89-bf7c-4130-8f3c-100cc1bb7863",
+        "first_name": "John",
+        "last_name": "Smith",
+        "experience": 54150,
+        "specialization": "Engine Repair",
+        "rating": 1159,
+        "created_at": "2023-10-03T22:35:02.825Z",
+        "updated_at": "2023-10-03T19:40:32.417Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "828a94ec-bcd6-4608-abb9-86c021750ff3",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "experience": 94938,
+        "specialization": "Transmission Service",
+        "rating": 19843,
+        "created_at": "2023-10-03T10:22:21.252Z",
+        "updated_at": "2023-10-03T16:15:56.692Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fbafb057-006e-4046-bc8f-ebfbade7d05e",
+        "first_name": "Robert",
+        "last_name": "Brown",
+        "experience": 32910,
+        "specialization": "Electrical Diagnostics",
+        "rating": 12274,
+        "created_at": "2023-10-03T13:26:53.333Z",
+        "updated_at": "2023-10-04T00:58:39.967Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5e0b5bdf-2d8f-4f78-8e34-42d8947aa800",
+        "first_name": "David",
+        "last_name": "Jones",
+        "experience": 3879,
+        "specialization": "Brake System",
+        "rating": 26665,
+        "created_at": "2023-10-03T21:56:30.326Z",
+        "updated_at": "2023-10-04T01:31:16.525Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9f360bff-4238-4d54-96fb-3f2cd09bde5a",
+        "first_name": "William",
+        "last_name": "Taylor",
+        "experience": 99463,
+        "specialization": "Suspension and Steering",
+        "rating": 13858,
+        "created_at": "2023-10-03T18:09:28.394Z",
+        "updated_at": "2023-10-03T22:13:36.405Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "9d4b98de-ceb2-444a-a44a-813cc3c74b0d",
+        "date": "2023-10-04T03:28:49.502Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-04T04:37:33.725Z",
+        "updated_at": "2023-10-03T11:26:52.670Z",
+        "service_id": "7469cf25-1c94-4c80-aea6-a35ec94201b4",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6aa38e95-ee1e-4c26-84c4-791e704ceb1d"
+      },
+      {
+        "id": "67185d45-ef75-47c5-ab81-d7ddc86bfea8",
+        "date": "2023-10-03T06:46:54.681Z",
+        "status": "In Progress",
+        "created_at": "2023-10-03T12:56:50.677Z",
+        "updated_at": "2023-10-03T10:29:34.123Z",
+        "service_id": "7469cf25-1c94-4c80-aea6-a35ec94201b4",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6aa38e95-ee1e-4c26-84c4-791e704ceb1d"
+      },
+      {
+        "id": "688b120d-89e0-4860-88e1-c5fdce2dfcf7",
+        "date": "2023-10-03T07:33:22.461Z",
+        "status": "Completed",
+        "created_at": "2023-10-03T08:17:56.992Z",
+        "updated_at": "2023-10-03T19:07:22.182Z",
+        "service_id": "3445fd39-e34c-4398-949a-59219785067c",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f0fe8842-4bbc-411a-a334-a85f33b6ee08"
+      },
+      {
+        "id": "fb86d46e-4e58-4bb1-933e-60c42c1e19f8",
+        "date": "2023-10-03T16:03:02.459Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-03T20:12:28.338Z",
+        "updated_at": "2023-10-03T13:28:57.133Z",
+        "service_id": "bc07d5ac-2536-48d5-9ad8-d50b1ac6bb7c",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "daf4c5fe-5b2d-4e0c-8e82-4d08d6262372"
+      },
+      {
+        "id": "118b7244-cfd2-46b7-b469-a0491383dbd7",
+        "date": "2023-10-03T07:38:45.496Z",
+        "status": "Rescheduled",
+        "created_at": "2023-10-03T16:37:02.970Z",
+        "updated_at": "2023-10-03T09:23:12.495Z",
+        "service_id": "bc07d5ac-2536-48d5-9ad8-d50b1ac6bb7c",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6aa38e95-ee1e-4c26-84c4-791e704ceb1d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c21fc12e-e904-4bb1-9c61-157c8b5aacb0",
+        "email": "Idell52@roq.tech",
+        "firstName": "Candido",
+        "lastName": "Breitenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95631180",
+        "tenantId": null
+      },
+      {
+        "reference": "47da5256-c7c9-4d39-a3f4-b903aa4c4c36",
+        "email": "Isabella93@roq.tech",
+        "firstName": "Jonathon",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1225.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7e556b48-4d78-4322-9257-e67b642beb15",
+        "email": "Kurt43@roq.tech",
+        "firstName": "Angeline",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68347238",
+        "tenantId": null
+      },
+      {
+        "reference": "330d2d28-34cb-4ecf-9da8-72f438bba4b3",
+        "email": "Bernardo_Kozey29@roq.tech",
+        "firstName": "Jarrett",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/867.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "54391cbf-38fb-4a6a-bf82-8a57923b2177",
+        "email": "Georgiana.Wisoky@roq.tech",
+        "firstName": "Lauriane",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/980.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "2abcba24-dc57-4140-8535-bc7e3cdd2a3c",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 75385,
+        "color": "Red",
+        "vin": "1HGCM82633A123456",
+        "mileage": 46437,
+        "created_at": "2023-10-03T18:23:53.778Z",
+        "updated_at": "2023-10-03T17:07:49.656Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89ba46d6-92a9-4201-86b0-974bd086a4aa",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 71651,
+        "color": "Blue",
+        "vin": "2T1BURHEXFC310675",
+        "mileage": 81997,
+        "created_at": "2023-10-04T00:33:47.546Z",
+        "updated_at": "2023-10-03T10:21:06.733Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f28edbb-cdd8-47f3-98de-dd5eb7593d72",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 14486,
+        "color": "Black",
+        "vin": "1FA6P8TH5K5123456",
+        "mileage": 69821,
+        "created_at": "2023-10-04T04:13:01.701Z",
+        "updated_at": "2023-10-03T04:44:55.979Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88889be9-b865-45a4-b700-c347b4a360d0",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 3922,
+        "color": "White",
+        "vin": "1GCNKPEC5FZ123456",
+        "mileage": 64453,
+        "created_at": "2023-10-03T11:57:26.097Z",
+        "updated_at": "2023-10-04T03:16:14.141Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ef65dd6-f0da-4139-800d-d9c5c1d443f6",
+        "make": "BMW",
+        "model": "X5",
+        "year": 93805,
+        "color": "Silver",
+        "vin": "5UXKR0C54F0K51234",
+        "mileage": 21060,
+        "created_at": "2023-10-03T09:30:28.080Z",
+        "updated_at": "2023-10-04T00:51:37.985Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "9e04e8b4-f796-4687-b7fc-49434a42e389",
+        "name": "Oil Change",
+        "description": "Regular maintenance to keep your engine running smoothly",
+        "cost": 79908,
+        "duration": 8830,
+        "created_at": "2023-10-03T07:28:57.928Z",
+        "updated_at": "2023-10-04T01:50:47.252Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7b0c95d8-84a9-4526-9880-0596a1c0b5d8",
+        "name": "Tire Rotation",
+        "description": "Extend the life of your tires with regular rotations",
+        "cost": 17940,
+        "duration": 49651,
+        "created_at": "2023-10-03T18:34:21.105Z",
+        "updated_at": "2023-10-03T06:40:16.249Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2055ba23-2d4a-4221-b71a-2fdaa5fd1a4b",
+        "name": "Brake Inspection",
+        "description": "Ensure your brakes are in optimal condition for safety",
+        "cost": 22934,
+        "duration": 3711,
+        "created_at": "2023-10-03T14:49:13.154Z",
+        "updated_at": "2023-10-03T05:42:07.239Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3657063f-af95-4163-888f-f4558337acd0",
+        "name": "Battery Replacement",
+        "description": "Replace your battery to avoid unexpected breakdowns",
+        "cost": 49697,
+        "duration": 19680,
+        "created_at": "2023-10-03T21:00:26.694Z",
+        "updated_at": "2023-10-03T15:52:37.839Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4c8fa003-5fad-4702-8131-985d026984ab",
+        "name": "Wheel Alignment",
+        "description": "Keep your wheels aligned for better handling and tire wear",
+        "cost": 41318,
+        "duration": 29007,
+        "created_at": "2023-10-03T12:00:56.319Z",
+        "updated_at": "2023-10-04T04:00:23.239Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "mechanic": [
+      {
+        "id": "b7dfcaa6-7bb5-4420-a2ed-db7497edb8f8",
+        "first_name": "David",
+        "last_name": "Smith",
+        "experience": 497,
+        "specialization": "Engine Repair",
+        "rating": 71957,
+        "created_at": "2023-10-04T00:16:59.240Z",
+        "updated_at": "2023-10-03T05:43:06.167Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cee3b1f4-26fd-4aa2-bb54-ec0051526733",
+        "first_name": "Jennifer",
+        "last_name": "Johnson",
+        "experience": 44094,
+        "specialization": "Transmission Service",
+        "rating": 21566,
+        "created_at": "2023-10-03T12:34:31.509Z",
+        "updated_at": "2023-10-03T07:55:42.055Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5a266f62-421c-4fbe-b48a-5b18af9fd9c4",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "experience": 18290,
+        "specialization": "Brake System",
+        "rating": 55435,
+        "created_at": "2023-10-03T12:49:39.063Z",
+        "updated_at": "2023-10-03T09:26:30.873Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "55609f9e-f3fa-4ff9-a4b1-4b773a4b9b1d",
+        "first_name": "Emily",
+        "last_name": "Wilson",
+        "experience": 36277,
+        "specialization": "Electrical Systems",
+        "rating": 29034,
+        "created_at": "2023-10-03T16:08:38.125Z",
+        "updated_at": "2023-10-03T22:42:37.832Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b390b035-3d4f-4ed8-9f79-8f7c744758bf",
+        "first_name": "Daniel",
+        "last_name": "Davis",
+        "experience": 34467,
+        "specialization": "Suspension and Steering",
+        "rating": 79943,
+        "created_at": "2023-10-03T14:25:13.493Z",
+        "updated_at": "2023-10-03T05:36:26.631Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "764e0550-80b9-41b3-a7dc-d89e5a1b9b7b",
+        "date": "2023-10-03T20:35:07.606Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-03T15:56:07.233Z",
+        "updated_at": "2023-10-03T09:34:16.702Z",
+        "service_id": "4c8fa003-5fad-4702-8131-985d026984ab",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9f28edbb-cdd8-47f3-98de-dd5eb7593d72"
+      },
+      {
+        "id": "93847308-f82b-45b7-b93c-e144441cb93f",
+        "date": "2023-10-03T07:13:44.964Z",
+        "status": "In Progress",
+        "created_at": "2023-10-03T04:51:48.354Z",
+        "updated_at": "2023-10-03T05:37:07.232Z",
+        "service_id": "4c8fa003-5fad-4702-8131-985d026984ab",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2abcba24-dc57-4140-8535-bc7e3cdd2a3c"
+      },
+      {
+        "id": "5c898582-2e25-439e-be23-45c2ea344619",
+        "date": "2023-10-03T16:15:40.643Z",
+        "status": "Completed",
+        "created_at": "2023-10-03T16:23:53.303Z",
+        "updated_at": "2023-10-03T22:37:30.688Z",
+        "service_id": "7b0c95d8-84a9-4526-9880-0596a1c0b5d8",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2abcba24-dc57-4140-8535-bc7e3cdd2a3c"
+      },
+      {
+        "id": "17ab4dd4-6a70-4fbe-8e77-fa02470b6305",
+        "date": "2023-10-03T15:14:21.441Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-03T11:41:18.385Z",
+        "updated_at": "2023-10-03T20:03:15.573Z",
+        "service_id": "7b0c95d8-84a9-4526-9880-0596a1c0b5d8",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9f28edbb-cdd8-47f3-98de-dd5eb7593d72"
+      },
+      {
+        "id": "6153a2fb-bd40-47b4-85df-1373cf99003b",
+        "date": "2023-10-03T12:53:39.462Z",
+        "status": "Rescheduled",
+        "created_at": "2023-10-03T12:11:43.882Z",
+        "updated_at": "2023-10-03T20:26:36.129Z",
+        "service_id": "2055ba23-2d4a-4221-b71a-2fdaa5fd1a4b",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "89ba46d6-92a9-4201-86b0-974bd086a4aa"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3c1e4dc1-6f21-4de4-950a-18381832673d",
+        "email": "Arlo_Labadie@roq.tech",
+        "firstName": "Christop",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53048104",
+        "tenantId": null
+      },
+      {
+        "reference": "ac7c09e4-693b-4e81-bb9f-c03672982265",
+        "email": "Abigale1@roq.tech",
+        "firstName": "Mireya",
+        "lastName": "Mann-Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68134511",
+        "tenantId": null
+      },
+      {
+        "reference": "2aa6316d-d8f1-4f71-9acc-fb19e138a035",
+        "email": "Makayla50@roq.tech",
+        "firstName": "Estefania",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/190.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2d7c095f-c256-4a22-b33c-60df34a4215c",
+        "email": "Eloise_Kuhn@roq.tech",
+        "firstName": "Liza",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1207.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "224f841d-508d-45b6-96e6-596597d64846",
+        "email": "Violette.OConner23@roq.tech",
+        "firstName": "Ada",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16267666",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "9579654d-7dc4-4195-aa53-ce1175e1a078",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 12168,
+        "color": "Red",
+        "vin": "1HGCM82633A123456",
+        "mileage": 13040,
+        "created_at": "2023-10-03T21:41:54.962Z",
+        "updated_at": "2023-10-03T10:01:07.890Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "321bbd9e-01f2-4cb9-b53c-b6f6797ee82c",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 69136,
+        "color": "Blue",
+        "vin": "2T1BURHE1EC123456",
+        "mileage": 92351,
+        "created_at": "2023-10-03T23:45:15.990Z",
+        "updated_at": "2023-10-03T15:20:55.602Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc506175-1be7-40a7-9355-4110f13675d9",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 84930,
+        "color": "Black",
+        "vin": "1FAFP42X31F123456",
+        "mileage": 4583,
+        "created_at": "2023-10-03T12:07:14.928Z",
+        "updated_at": "2023-10-03T13:39:36.899Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45e54256-8c69-45fb-8ac3-801b7876e762",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 67293,
+        "color": "White",
+        "vin": "1GCEC14X44Z123456",
+        "mileage": 75417,
+        "created_at": "2023-10-03T08:28:34.022Z",
+        "updated_at": "2023-10-03T16:54:15.064Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c4bd911-3a64-4bd6-a16f-f777ce31f81c",
+        "make": "BMW",
+        "model": "X5",
+        "year": 70578,
+        "color": "Silver",
+        "vin": "5UXKR6C52F0P12345",
+        "mileage": 29341,
+        "created_at": "2023-10-04T00:20:38.091Z",
+        "updated_at": "2023-10-03T11:53:01.367Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "9c5dba89-1e45-429e-b82c-959dcc3a4360",
+        "name": "Oil Change",
+        "description": "Regular maintenance service for your vehicle",
+        "cost": 27917,
+        "duration": 65485,
+        "created_at": "2023-10-03T16:59:45.701Z",
+        "updated_at": "2023-10-03T14:19:59.774Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6732ee82-19f7-4359-be20-c0bea60f3f06",
+        "name": "Tire Rotation",
+        "description": "Rotate and balance tires for optimal performance",
+        "cost": 1531,
+        "duration": 48050,
+        "created_at": "2023-10-03T15:35:44.246Z",
+        "updated_at": "2023-10-03T07:11:05.319Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cebf860c-5d89-411d-81df-964840e8f151",
+        "name": "Brake Repair",
+        "description": "Repair and replace brake components",
+        "cost": 88689,
+        "duration": 2881,
+        "created_at": "2023-10-03T13:48:05.049Z",
+        "updated_at": "2023-10-03T14:18:24.273Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2bc833f2-8004-4a84-b390-051b817f9723",
+        "name": "Engine Tune-Up",
+        "description": "Tune the engine for better fuel efficiency",
+        "cost": 46989,
+        "duration": 49011,
+        "created_at": "2023-10-03T15:32:56.285Z",
+        "updated_at": "2023-10-03T09:00:32.400Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ab3bbc38-b07a-456f-b27c-f929e02f690f",
+        "name": "Transmission Flush",
+        "description": "Flush and replace transmission fluid",
+        "cost": 25290,
+        "duration": 99749,
+        "created_at": "2023-10-03T15:00:46.849Z",
+        "updated_at": "2023-10-03T18:25:56.844Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "mechanic": [
+      {
+        "id": "6292e185-b3d5-4d61-af7e-9ceedb5cdccc",
+        "first_name": "John",
+        "last_name": "Smith",
+        "experience": 80058,
+        "specialization": "Engine Repair",
+        "rating": 82170,
+        "created_at": "2023-10-03T06:21:36.392Z",
+        "updated_at": "2023-10-03T21:48:23.754Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d688bd51-6f2d-43f2-adc8-17c12c7d40cb",
+        "first_name": "David",
+        "last_name": "Johnson",
+        "experience": 83427,
+        "specialization": "Electrical Systems",
+        "rating": 99270,
+        "created_at": "2023-10-03T19:20:20.515Z",
+        "updated_at": "2023-10-03T22:16:12.054Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a52051f7-af49-45ed-bd89-23d9d744ffbc",
+        "first_name": "Michael",
+        "last_name": "Williams",
+        "experience": 15890,
+        "specialization": "Brake Systems",
+        "rating": 50318,
+        "created_at": "2023-10-03T15:29:19.340Z",
+        "updated_at": "2023-10-03T13:00:51.451Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c91e2967-fd89-45cd-a8e9-653c845e786e",
+        "first_name": "Jennifer",
+        "last_name": "Brown",
+        "experience": 52154,
+        "specialization": "Suspension Systems",
+        "rating": 20347,
+        "created_at": "2023-10-03T22:38:21.752Z",
+        "updated_at": "2023-10-03T04:45:52.694Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "10d2a0f3-8e47-4a9f-85dc-5150fcd9a912",
+        "first_name": "Emily",
+        "last_name": "Jones",
+        "experience": 15377,
+        "specialization": "Transmission Repair",
+        "rating": 43620,
+        "created_at": "2023-10-03T23:08:30.531Z",
+        "updated_at": "2023-10-03T18:46:38.652Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "3b82beda-fd36-4c26-bca9-31bd54cf621d",
+        "date": "2023-10-03T08:41:22.594Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-03T16:07:04.123Z",
+        "updated_at": "2023-10-03T11:32:53.783Z",
+        "service_id": "9c5dba89-1e45-429e-b82c-959dcc3a4360",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cc506175-1be7-40a7-9355-4110f13675d9"
+      },
+      {
+        "id": "510a4171-d88a-49c3-aa0f-146dcef5f770",
+        "date": "2023-10-04T04:33:27.694Z",
+        "status": "In Progress",
+        "created_at": "2023-10-03T19:23:03.080Z",
+        "updated_at": "2023-10-04T02:07:29.085Z",
+        "service_id": "9c5dba89-1e45-429e-b82c-959dcc3a4360",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "45e54256-8c69-45fb-8ac3-801b7876e762"
+      },
+      {
+        "id": "bc4f31ad-2799-4385-b8f3-3b47b193bd97",
+        "date": "2023-10-03T06:02:43.103Z",
+        "status": "Completed",
+        "created_at": "2023-10-03T12:20:38.256Z",
+        "updated_at": "2023-10-03T06:18:34.731Z",
+        "service_id": "6732ee82-19f7-4359-be20-c0bea60f3f06",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "45e54256-8c69-45fb-8ac3-801b7876e762"
+      },
+      {
+        "id": "bc907202-0542-4a98-87c6-59c8561238c3",
+        "date": "2023-10-03T20:21:01.529Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-03T18:00:38.173Z",
+        "updated_at": "2023-10-03T18:14:25.116Z",
+        "service_id": "ab3bbc38-b07a-456f-b27c-f929e02f690f",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9579654d-7dc4-4195-aa53-ce1175e1a078"
+      },
+      {
+        "id": "3a626471-ea22-40fa-9342-02f368904c1f",
+        "date": "2023-10-03T16:38:59.347Z",
+        "status": "Rescheduled",
+        "created_at": "2023-10-03T07:55:59.062Z",
+        "updated_at": "2023-10-03T17:12:40.501Z",
+        "service_id": "2bc833f2-8004-4a84-b390-051b817f9723",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9579654d-7dc4-4195-aa53-ce1175e1a078"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "22b21a25-5200-4082-a196-574356d5b7ee",
+        "email": "Sierra.MacGyver@roq.tech",
+        "firstName": "Olga",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/803.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "871d5b63-3fb4-490d-8cf9-5d64d79b0c47",
+        "email": "Keon_Cassin60@roq.tech",
+        "firstName": "Griffin",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4450376",
+        "tenantId": null
+      },
+      {
+        "reference": "d183d58a-712b-4c67-b531-98313fa1364a",
+        "email": "Murray46@roq.tech",
+        "firstName": "Rodrigo",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/827.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f7497343-de29-4b6e-a4ea-9c5aa2bc821c",
+        "email": "Everardo_Schinner@roq.tech",
+        "firstName": "Cicero",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/641.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0d8e7a57-b099-4a96-a26c-da96e40b4ea6",
+        "email": "Cristal80@roq.tech",
+        "firstName": "Johnathon",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/544.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "46e34524-8d6d-47cc-9530-be7f5fd1d105",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 13625,
+        "color": "Red",
+        "vin": "1HGCM82633A123456",
+        "mileage": 32235,
+        "created_at": "2023-10-03T06:00:52.006Z",
+        "updated_at": "2023-10-04T03:47:16.249Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "105ff463-5259-45d7-9f42-beef00d79500",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 70145,
+        "color": "Blue",
+        "vin": "2T1BURHE2HC123456",
+        "mileage": 3990,
+        "created_at": "2023-10-03T13:34:55.667Z",
+        "updated_at": "2023-10-04T04:23:12.718Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a215077-c620-458c-89e0-91b2cc02ce56",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 59031,
+        "color": "Black",
+        "vin": "1FAFP44484F123456",
+        "mileage": 47808,
+        "created_at": "2023-10-03T07:11:26.443Z",
+        "updated_at": "2023-10-03T05:45:40.296Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a35fb0f-da9c-4788-8ce9-a540bb59e3bb",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 96939,
+        "color": "White",
+        "vin": "1GCEC14X43Z123456",
+        "mileage": 73892,
+        "created_at": "2023-10-03T15:23:46.410Z",
+        "updated_at": "2023-10-03T12:18:22.930Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c11e11f6-5844-41e0-bb0f-a876540b5f9e",
+        "make": "BMW",
+        "model": "X5",
+        "year": 77686,
+        "color": "Silver",
+        "vin": "5UXKR0C55H0V12345",
+        "mileage": 53108,
+        "created_at": "2023-10-03T12:41:58.349Z",
+        "updated_at": "2023-10-03T17:51:09.634Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "04ad1f21-fbf9-4878-b73f-737f1beb831d",
+        "name": "Oil Change",
+        "description": "Regular maintenance service for your vehicle",
+        "cost": 49355,
+        "duration": 72391,
+        "created_at": "2023-10-03T14:46:06.789Z",
+        "updated_at": "2023-10-03T20:47:12.002Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a955ca8a-3470-4372-bc19-12668787dc3e",
+        "name": "Tire Rotation",
+        "description": "Extending the life of your tires",
+        "cost": 40463,
+        "duration": 73096,
+        "created_at": "2023-10-04T03:58:50.932Z",
+        "updated_at": "2023-10-03T23:52:12.471Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d35d88fc-2930-4977-a9fb-bdf77416057c",
+        "name": "Brake Repair",
+        "description": "Ensuring optimal braking performance",
+        "cost": 77345,
+        "duration": 18839,
+        "created_at": "2023-10-03T11:21:26.941Z",
+        "updated_at": "2023-10-03T23:53:06.994Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cb50ba46-25d0-47b4-8d93-bb2341b7c105",
+        "name": "Battery Replacement",
+        "description": "Replacing old and worn-out batteries",
+        "cost": 59624,
+        "duration": 33386,
+        "created_at": "2023-10-03T20:07:30.142Z",
+        "updated_at": "2023-10-03T08:18:21.872Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d6141e59-4c90-47e5-a516-560e4aecf0f5",
+        "name": "Engine Tune-Up",
+        "description": "Improving engine performance and fuel efficiency",
+        "cost": 84091,
+        "duration": 99655,
+        "created_at": "2023-10-03T21:12:47.578Z",
+        "updated_at": "2023-10-04T04:27:36.256Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "mechanic": [
+      {
+        "id": "e5028b79-f5d4-4043-95da-568e15aaa73b",
+        "first_name": "John",
+        "last_name": "Smith",
+        "experience": 46992,
+        "specialization": "Engine Repair",
+        "rating": 69856,
+        "created_at": "2023-10-04T02:24:34.998Z",
+        "updated_at": "2023-10-03T05:55:20.211Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bca35e53-b2e7-4ef5-b8f3-045caaff78af",
+        "first_name": "David",
+        "last_name": "Johnson",
+        "experience": 27788,
+        "specialization": "Transmission Service",
+        "rating": 38898,
+        "created_at": "2023-10-03T15:34:00.982Z",
+        "updated_at": "2023-10-03T12:58:06.092Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "62543f8a-910f-4f19-92be-7d0ff13ff0f3",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "experience": 9778,
+        "specialization": "Electrical Systems",
+        "rating": 32809,
+        "created_at": "2023-10-03T17:34:32.967Z",
+        "updated_at": "2023-10-03T13:09:55.486Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6feb2592-93ca-4a08-8240-3600afe36834",
+        "first_name": "Daniel",
+        "last_name": "Davis",
+        "experience": 86008,
+        "specialization": "Suspension and Steering",
+        "rating": 51179,
+        "created_at": "2023-10-03T23:29:26.223Z",
+        "updated_at": "2023-10-03T17:06:37.889Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "33e9ef36-7bb6-4704-afc8-876c12b72c8f",
+        "first_name": "Matthew",
+        "last_name": "Miller",
+        "experience": 49620,
+        "specialization": "Air Conditioning",
+        "rating": 61355,
+        "created_at": "2023-10-03T13:32:15.655Z",
+        "updated_at": "2023-10-03T09:40:48.819Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "f82d27bb-e7fa-4d4e-9359-706a02108ae0",
+        "date": "2023-10-03T14:27:19.436Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-03T18:33:25.648Z",
+        "updated_at": "2023-10-03T09:53:04.373Z",
+        "service_id": "04ad1f21-fbf9-4878-b73f-737f1beb831d",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "46e34524-8d6d-47cc-9530-be7f5fd1d105"
+      },
+      {
+        "id": "be17a686-6b20-493d-88a9-84ea04c0ddb4",
+        "date": "2023-10-03T05:34:41.187Z",
+        "status": "In Progress",
+        "created_at": "2023-10-03T21:20:47.532Z",
+        "updated_at": "2023-10-03T21:43:30.645Z",
+        "service_id": "d35d88fc-2930-4977-a9fb-bdf77416057c",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "46e34524-8d6d-47cc-9530-be7f5fd1d105"
+      },
+      {
+        "id": "5786cf2e-706f-41f8-ab8a-f75b4c1550be",
+        "date": "2023-10-04T00:44:19.738Z",
+        "status": "Completed",
+        "created_at": "2023-10-04T03:58:51.472Z",
+        "updated_at": "2023-10-03T16:34:05.935Z",
+        "service_id": "d35d88fc-2930-4977-a9fb-bdf77416057c",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "105ff463-5259-45d7-9f42-beef00d79500"
+      },
+      {
+        "id": "17c57e2b-88fb-4005-b3eb-b36b30b8634b",
+        "date": "2023-10-03T13:49:52.165Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-03T10:38:34.122Z",
+        "updated_at": "2023-10-04T01:29:33.034Z",
+        "service_id": "04ad1f21-fbf9-4878-b73f-737f1beb831d",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "105ff463-5259-45d7-9f42-beef00d79500"
+      },
+      {
+        "id": "c71479dd-62d4-422f-a5b2-c4b24828d186",
+        "date": "2023-10-03T12:03:55.933Z",
+        "status": "Rescheduled",
+        "created_at": "2023-10-03T08:44:23.003Z",
+        "updated_at": "2023-10-04T02:35:40.438Z",
+        "service_id": "d6141e59-4c90-47e5-a516-560e4aecf0f5",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "3a35fb0f-da9c-4788-8ce9-a540bb59e3bb"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d14e5f75-fc3e-436c-9fb7-e276dc1667de",
+        "email": "Sister_Gulgowski@roq.tech",
+        "firstName": "Laurine",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/882.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a403aff3-665f-41dc-8f46-2571a143f0eb",
+        "email": "Abraham.Hoppe87@roq.tech",
+        "firstName": "Rosalee",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40957569",
+        "tenantId": null
+      },
+      {
+        "reference": "9ee20bca-cfbd-47ce-b1d1-cd676ef90ddf",
+        "email": "Dina_Brown76@roq.tech",
+        "firstName": "Mallory",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/948.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ef77f53a-def7-4d27-a53e-72ef5ad6b0ca",
+        "email": "Hillary.Gutkowski@roq.tech",
+        "firstName": "Doris",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/896.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "35f15b82-29de-49cd-9aee-3800d7a9f3af",
+        "email": "Reva48@roq.tech",
+        "firstName": "Dejah",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14896380",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "40c67d9b-6ad8-4f55-ad8b-2ff8d2f8f3d8",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 16659,
+        "color": "Red",
+        "vin": "1HGCM82633A123456",
+        "mileage": 90872,
+        "created_at": "2023-10-03T10:42:40.392Z",
+        "updated_at": "2023-10-03T19:10:40.419Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21249d29-d4d3-43e5-8895-add9e7cf83a4",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 49100,
+        "color": "Blue",
+        "vin": "2T1BR32E13C123456",
+        "mileage": 21421,
+        "created_at": "2023-10-03T16:48:38.359Z",
+        "updated_at": "2023-10-03T16:57:50.403Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03e7a201-517d-4ccc-a743-9cc62a80cd0c",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 70965,
+        "color": "Black",
+        "vin": "1FTFX1EF2DFA12345",
+        "mileage": 14522,
+        "created_at": "2023-10-03T09:41:52.867Z",
+        "updated_at": "2023-10-03T23:54:00.695Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "888cc129-ca65-4187-90f3-3079830f5987",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 66762,
+        "color": "White",
+        "vin": "1GCPKSE71GF123456",
+        "mileage": 39195,
+        "created_at": "2023-10-03T08:14:26.773Z",
+        "updated_at": "2023-10-03T12:12:49.991Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8e06a4d-002d-40b3-bb05-64ab3dba3e52",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 58308,
+        "color": "Silver",
+        "vin": "1N4AL3AP6FC123456",
+        "mileage": 39699,
+        "created_at": "2023-10-03T06:56:00.235Z",
+        "updated_at": "2023-10-04T02:39:54.244Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "59cabf1d-91b9-4f93-974e-febfcb2f6458",
+        "name": "Oil Change",
+        "description": "Regular maintenance service for your vehicle",
+        "cost": 34947,
+        "duration": 90116,
+        "created_at": "2023-10-03T08:26:13.181Z",
+        "updated_at": "2023-10-03T19:43:01.486Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0f165d1c-b489-4896-8461-35c0cc461eab",
+        "name": "Tire Rotation",
+        "description": "Rotate and balance tires for optimal performance",
+        "cost": 94070,
+        "duration": 34548,
+        "created_at": "2023-10-03T21:11:02.510Z",
+        "updated_at": "2023-10-03T13:39:00.874Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2b250f8b-0cec-4ad3-ba54-d827ef04c5d0",
+        "name": "Brake Repair",
+        "description": "Repair and replace brake components",
+        "cost": 64682,
+        "duration": 6082,
+        "created_at": "2023-10-03T21:43:27.136Z",
+        "updated_at": "2023-10-04T02:48:49.932Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "568f5567-4f73-4bef-b326-6ab7d3958e57",
+        "name": "Engine Tune-Up",
+        "description": "Tune the engine for better efficiency",
+        "cost": 19011,
+        "duration": 11520,
+        "created_at": "2023-10-04T03:13:01.116Z",
+        "updated_at": "2023-10-03T05:32:26.981Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3f8cc0a1-6f12-4b9a-bb76-74fe86c5a488",
+        "name": "Battery Replacement",
+        "description": "Replace old battery with a new one",
+        "cost": 8257,
+        "duration": 97823,
+        "created_at": "2023-10-03T10:45:40.266Z",
+        "updated_at": "2023-10-04T01:11:07.636Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "mechanic": [
+      {
+        "id": "8016dbe9-e55f-4d78-818a-12191b5d90c4",
+        "first_name": "David",
+        "last_name": "Johnson",
+        "experience": 25425,
+        "specialization": "Engine Repair",
+        "rating": 94119,
+        "created_at": "2023-10-03T21:15:45.481Z",
+        "updated_at": "2023-10-03T09:29:20.469Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5dfeae1e-0777-43b9-9afb-5a9b53954db5",
+        "first_name": "Jennifer",
+        "last_name": "Smith",
+        "experience": 92233,
+        "specialization": "Electrical Systems",
+        "rating": 94477,
+        "created_at": "2023-10-03T22:14:11.177Z",
+        "updated_at": "2023-10-03T20:17:35.978Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "795232e4-8410-4d09-a733-c1ce4cc71eb1",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "experience": 1801,
+        "specialization": "Transmission",
+        "rating": 61284,
+        "created_at": "2023-10-03T09:08:30.083Z",
+        "updated_at": "2023-10-03T07:58:47.970Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "37de368d-ecb5-4655-869a-b407dd977c98",
+        "first_name": "Emily",
+        "last_name": "Davis",
+        "experience": 79967,
+        "specialization": "Suspension",
+        "rating": 58680,
+        "created_at": "2023-10-03T09:34:25.916Z",
+        "updated_at": "2023-10-03T21:23:50.168Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "385427d1-da64-4db3-bb5e-f3d9a74fc272",
+        "first_name": "Daniel",
+        "last_name": "Wilson",
+        "experience": 89900,
+        "specialization": "Air Conditioning",
+        "rating": 89694,
+        "created_at": "2023-10-03T07:56:13.302Z",
+        "updated_at": "2023-10-04T00:53:09.870Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "3bb8780f-5f47-4d4d-b393-72f511d68376",
+        "date": "2023-10-03T13:13:11.294Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-03T12:46:56.991Z",
+        "updated_at": "2023-10-03T16:12:31.836Z",
+        "service_id": "59cabf1d-91b9-4f93-974e-febfcb2f6458",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "21249d29-d4d3-43e5-8895-add9e7cf83a4"
+      },
+      {
+        "id": "e7c9ffad-b1e3-42d3-abfa-e9cfd8a48937",
+        "date": "2023-10-03T14:51:05.013Z",
+        "status": "In Progress",
+        "created_at": "2023-10-03T06:10:00.212Z",
+        "updated_at": "2023-10-03T15:31:15.293Z",
+        "service_id": "3f8cc0a1-6f12-4b9a-bb76-74fe86c5a488",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "03e7a201-517d-4ccc-a743-9cc62a80cd0c"
+      },
+      {
+        "id": "3847351f-0877-49c0-8966-dcf02afb7a56",
+        "date": "2023-10-03T19:29:29.643Z",
+        "status": "Completed",
+        "created_at": "2023-10-04T03:47:02.668Z",
+        "updated_at": "2023-10-03T17:22:06.244Z",
+        "service_id": "59cabf1d-91b9-4f93-974e-febfcb2f6458",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "03e7a201-517d-4ccc-a743-9cc62a80cd0c"
+      },
+      {
+        "id": "29f8dc23-bc68-479d-90f3-5d8770ac0624",
+        "date": "2023-10-03T04:44:48.000Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-03T11:06:27.433Z",
+        "updated_at": "2023-10-03T11:35:21.545Z",
+        "service_id": "568f5567-4f73-4bef-b326-6ab7d3958e57",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "888cc129-ca65-4187-90f3-3079830f5987"
+      },
+      {
+        "id": "5edc9c40-7fb8-40fe-8e3b-cf720838b42b",
+        "date": "2023-10-03T15:11:25.959Z",
+        "status": "Rescheduled",
+        "created_at": "2023-10-03T22:12:38.283Z",
+        "updated_at": "2023-10-03T19:15:09.148Z",
+        "service_id": "3f8cc0a1-6f12-4b9a-bb76-74fe86c5a488",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "03e7a201-517d-4ccc-a743-9cc62a80cd0c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ec624f9a-a6ca-4203-904f-fe66ff4f9873",
+        "email": "Carol_Hamill@roq.tech",
+        "firstName": "Billy",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/751.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "62ec858a-31b9-4513-bd0b-84219ef02718",
+        "email": "Mozell38@roq.tech",
+        "firstName": "Zora",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97372183",
+        "tenantId": null
+      },
+      {
+        "reference": "4a1708d8-6e85-4b7a-8ca2-0865740c25ce",
+        "email": "Travis.Wisoky@roq.tech",
+        "firstName": "Mossie",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/542.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6e739bb8-b938-4f74-b834-250485976e73",
+        "email": "Savanah12@roq.tech",
+        "firstName": "Desmond",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/104.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "96f53c6c-9ad7-40d7-8e31-4c591a5767cb",
+        "email": "Gage.Grady@roq.tech",
+        "firstName": "Erling",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/541.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "1e779e2e-32d4-415a-9639-5b5f9c611ff0",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 52671,
+        "color": "Red",
+        "vin": "1HGCM82633A123456",
+        "mileage": 13061,
+        "created_at": "2023-10-04T02:45:02.556Z",
+        "updated_at": "2023-10-03T05:23:43.252Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33b6dcf4-21a1-4465-ad82-9fd4f6707d34",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 22677,
+        "color": "Blue",
+        "vin": "5YJSA1CN3DFP12345",
+        "mileage": 70416,
+        "created_at": "2023-10-03T16:27:38.413Z",
+        "updated_at": "2023-10-04T01:28:27.451Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e57aa61-bdcf-4826-90cc-7657d6762f1c",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 5848,
+        "color": "Black",
+        "vin": "1FTFW1ET5BFB12345",
+        "mileage": 27560,
+        "created_at": "2023-10-04T03:49:40.980Z",
+        "updated_at": "2023-10-03T08:43:45.926Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18979123-1e8b-4983-9816-257956156f79",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 66338,
+        "color": "White",
+        "vin": "3GCPKSE37BG123456",
+        "mileage": 83345,
+        "created_at": "2023-10-03T20:14:57.643Z",
+        "updated_at": "2023-10-04T01:50:40.649Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f57c343-48fc-4f8a-bd96-6d3058caa1a6",
+        "make": "BMW",
+        "model": "X5",
+        "year": 63281,
+        "color": "Silver",
+        "vin": "5UXKR0C52H0V12345",
+        "mileage": 78036,
+        "created_at": "2023-10-04T03:55:55.959Z",
+        "updated_at": "2023-10-03T14:30:38.008Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "ac3763a1-8350-4d16-8376-61031170a892",
+        "name": "Oil Change",
+        "description": "Regular maintenance service for engine oil change",
+        "cost": 99253,
+        "duration": 88270,
+        "created_at": "2023-10-03T22:04:18.116Z",
+        "updated_at": "2023-10-03T06:47:55.535Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "26811f39-79bc-46cb-88f6-835bfc34b3a7",
+        "name": "Tire Rotation",
+        "description": "Rotating tires to ensure even wear",
+        "cost": 86712,
+        "duration": 1252,
+        "created_at": "2023-10-03T15:11:40.439Z",
+        "updated_at": "2023-10-03T23:25:28.890Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6025e96b-9639-4b18-b0fd-92d773fa6b6e",
+        "name": "Brake Repair",
+        "description": "Repairing brake system components",
+        "cost": 4965,
+        "duration": 52617,
+        "created_at": "2023-10-03T16:52:43.214Z",
+        "updated_at": "2023-10-03T13:42:23.886Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bd97c404-1acc-44aa-9bef-10fd3163375e",
+        "name": "Battery Replacement",
+        "description": "Replacing old battery with a new one",
+        "cost": 16641,
+        "duration": 15933,
+        "created_at": "2023-10-03T14:15:03.362Z",
+        "updated_at": "2023-10-03T17:57:30.646Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "377e462f-d6a8-4e75-b851-dfc767da4d6d",
+        "name": "Wheel Alignment",
+        "description": "Aligning wheels for optimal vehicle performance",
+        "cost": 70702,
+        "duration": 94754,
+        "created_at": "2023-10-03T23:03:20.303Z",
+        "updated_at": "2023-10-03T22:25:46.555Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "mechanic": [
+      {
+        "id": "2515bc9c-520d-4fe2-b3ae-c7f3ed8ff8c2",
+        "first_name": "John",
+        "last_name": "Smith",
+        "experience": 48531,
+        "specialization": "Engine Repair",
+        "rating": 40847,
+        "created_at": "2023-10-03T18:26:17.506Z",
+        "updated_at": "2023-10-03T18:57:04.555Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "497ec945-1d66-4258-a420-4cc4a5051990",
+        "first_name": "David",
+        "last_name": "Johnson",
+        "experience": 14392,
+        "specialization": "Electrical Systems",
+        "rating": 56933,
+        "created_at": "2023-10-03T09:57:09.471Z",
+        "updated_at": "2023-10-03T17:27:46.907Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a31e469a-209f-41aa-bc56-79941de66c52",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "experience": 5,
+        "specialization": "Transmission",
+        "rating": 36385,
+        "created_at": "2023-10-03T08:00:39.584Z",
+        "updated_at": "2023-10-03T09:41:14.197Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "29bf0339-453b-4008-889a-80fdd5cb4834",
+        "first_name": "Sarah",
+        "last_name": "Wilson",
+        "experience": 42352,
+        "specialization": "Brake System",
+        "rating": 43706,
+        "created_at": "2023-10-03T23:12:31.347Z",
+        "updated_at": "2023-10-03T05:51:29.952Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c034bc28-85bb-471d-8867-75b3eda6b9cf",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "experience": 66513,
+        "specialization": "Suspension",
+        "rating": 34780,
+        "created_at": "2023-10-04T02:19:02.263Z",
+        "updated_at": "2023-10-03T11:24:47.659Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "eaa2e2bb-e441-44a7-8e1b-202644873ee9",
+        "date": "2023-10-03T11:12:56.359Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-03T20:48:44.494Z",
+        "updated_at": "2023-10-04T00:38:50.420Z",
+        "service_id": "ac3763a1-8350-4d16-8376-61031170a892",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1e779e2e-32d4-415a-9639-5b5f9c611ff0"
+      },
+      {
+        "id": "5a81c1c2-0e43-4b49-8866-e1826dd24a4d",
+        "date": "2023-10-03T10:31:44.047Z",
+        "status": "In Progress",
+        "created_at": "2023-10-03T05:37:19.217Z",
+        "updated_at": "2023-10-03T12:17:14.237Z",
+        "service_id": "ac3763a1-8350-4d16-8376-61031170a892",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "18979123-1e8b-4983-9816-257956156f79"
+      },
+      {
+        "id": "b6e3c4a9-e4a9-40e4-9aec-310234c3d883",
+        "date": "2023-10-04T01:08:11.035Z",
+        "status": "Completed",
+        "created_at": "2023-10-03T13:18:44.653Z",
+        "updated_at": "2023-10-03T20:32:09.838Z",
+        "service_id": "6025e96b-9639-4b18-b0fd-92d773fa6b6e",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6f57c343-48fc-4f8a-bd96-6d3058caa1a6"
+      },
+      {
+        "id": "4a983c80-656e-4e6f-b119-c2b0c4294f62",
+        "date": "2023-10-04T01:04:52.996Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-04T02:14:30.934Z",
+        "updated_at": "2023-10-03T17:29:08.259Z",
+        "service_id": "ac3763a1-8350-4d16-8376-61031170a892",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4e57aa61-bdcf-4826-90cc-7657d6762f1c"
+      },
+      {
+        "id": "e7d705d6-20ef-48b4-ad73-2c640cd06006",
+        "date": "2023-10-03T23:42:44.256Z",
+        "status": "Rescheduled",
+        "created_at": "2023-10-03T05:34:40.396Z",
+        "updated_at": "2023-10-03T12:49:32.401Z",
+        "service_id": "26811f39-79bc-46cb-88f6-835bfc34b3a7",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1e779e2e-32d4-415a-9639-5b5f9c611ff0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bb590181-3ec1-4be6-bdbf-20ec33c0b5c0",
+        "email": "Summer97@roq.tech",
+        "firstName": "Taylor",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/612.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ff212ba-4416-4f25-881f-12716cd78840",
+        "email": "Jeremy60@roq.tech",
+        "firstName": "Alana",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/590.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3fa462f5-d7fe-44b5-8f32-709e281e9aa8",
+        "email": "Madonna_Russel@roq.tech",
+        "firstName": "Loyal",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45342552",
+        "tenantId": null
+      },
+      {
+        "reference": "818b1726-2781-49f9-bf40-69af8ff3d450",
+        "email": "Audreanne64@roq.tech",
+        "firstName": "Meghan",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69528103",
+        "tenantId": null
+      },
+      {
+        "reference": "4349b34c-1950-4a81-a7ef-9502aa1c20b8",
+        "email": "Monty_Roberts19@roq.tech",
+        "firstName": "Clarissa",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/430.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "53c696a9-e377-4eab-b1f3-2daafb602530",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 5999,
+        "color": "Red",
+        "vin": "1HGCM82633A123456",
+        "mileage": 21297,
+        "created_at": "2023-10-03T14:03:14.561Z",
+        "updated_at": "2023-10-04T01:40:51.577Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3bb04c4-32bb-4714-87b0-7f2bc281b2a6",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 92379,
+        "color": "Blue",
+        "vin": "5N1AT2MT7JC123456",
+        "mileage": 74438,
+        "created_at": "2023-10-03T06:52:54.607Z",
+        "updated_at": "2023-10-03T22:18:30.206Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25cfb015-eab7-4c56-a5ea-81b67a4b836d",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 35173,
+        "color": "Black",
+        "vin": "1FTFW1RG6HFA12345",
+        "mileage": 43553,
+        "created_at": "2023-10-04T00:53:40.502Z",
+        "updated_at": "2023-10-04T04:06:12.564Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c66712c-1918-407c-a97c-b1050e64a1c6",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 29945,
+        "color": "White",
+        "vin": "3GCPKSE3XDG123456",
+        "mileage": 88849,
+        "created_at": "2023-10-04T02:21:47.773Z",
+        "updated_at": "2023-10-04T02:15:05.314Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4dcf849-7a54-4ff6-9449-c987797a688a",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 36735,
+        "color": "Silver",
+        "vin": "JT2BK12U730123456",
+        "mileage": 64057,
+        "created_at": "2023-10-03T12:08:02.301Z",
+        "updated_at": "2023-10-03T05:31:57.218Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service": [
+      {
+        "id": "97e9b90e-b1d4-4a66-be0c-bc4e0b26d590",
+        "name": "Oil Change",
+        "description": "Regular maintenance service",
+        "cost": 82714,
+        "duration": 64975,
+        "created_at": "2023-10-03T04:52:40.749Z",
+        "updated_at": "2023-10-03T10:52:43.803Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "914dfc5b-f32a-4ad3-8c71-47c16fb0e326",
+        "name": "Tire Rotation",
+        "description": "Ensure even tire wear",
+        "cost": 44772,
+        "duration": 68242,
+        "created_at": "2023-10-04T03:00:31.579Z",
+        "updated_at": "2023-10-03T21:02:45.978Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9f626a09-143a-4a08-9bdd-428909fe5137",
+        "name": "Brake Inspection",
+        "description": "Check brake system components",
+        "cost": 67192,
+        "duration": 20070,
+        "created_at": "2023-10-03T15:07:55.567Z",
+        "updated_at": "2023-10-03T16:52:49.876Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c7f6b80e-b2e8-4888-bfe8-5d3abd644450",
+        "name": "Battery Replacement",
+        "description": "Replace old battery",
+        "cost": 77811,
+        "duration": 57129,
+        "created_at": "2023-10-03T15:03:21.017Z",
+        "updated_at": "2023-10-03T07:24:40.236Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6a340c2e-35c8-414c-a4c3-efaa44437688",
+        "name": "Wheel Alignment",
+        "description": "Adjust wheel angles for optimal performance",
+        "cost": 40860,
+        "duration": 91652,
+        "created_at": "2023-10-03T07:48:11.113Z",
+        "updated_at": "2023-10-03T06:32:07.636Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "mechanic": [
+      {
+        "id": "c8cf4062-be1f-4508-9ec8-7562d56c95c0",
+        "first_name": "Michael",
+        "last_name": "Smith",
+        "experience": 52038,
+        "specialization": "Engine Repair",
+        "rating": 75976,
+        "created_at": "2023-10-03T11:48:12.727Z",
+        "updated_at": "2023-10-03T20:56:21.051Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3fac5810-aba8-4739-92e2-1d72f4010e42",
+        "first_name": "Jennifer",
+        "last_name": "Johnson",
+        "experience": 90863,
+        "specialization": "Transmission Service",
+        "rating": 93585,
+        "created_at": "2023-10-04T03:18:18.610Z",
+        "updated_at": "2023-10-03T08:53:55.288Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cce879bc-06f6-402e-afb9-201816d780fd",
+        "first_name": "Robert",
+        "last_name": "Brown",
+        "experience": 88917,
+        "specialization": "Brake System",
+        "rating": 48833,
+        "created_at": "2023-10-03T09:37:17.116Z",
+        "updated_at": "2023-10-03T23:40:18.824Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fcc1266e-8364-4ff7-bcdf-b0eb159028ee",
+        "first_name": "Emily",
+        "last_name": "Miller",
+        "experience": 21058,
+        "specialization": "Electrical Systems",
+        "rating": 2130,
+        "created_at": "2023-10-03T07:27:28.230Z",
+        "updated_at": "2023-10-04T00:53:18.175Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f2765dda-1258-4d93-845f-2f0f9b7f749a",
+        "first_name": "David",
+        "last_name": "Davis",
+        "experience": 23659,
+        "specialization": "Suspension and Steering",
+        "rating": 29368,
+        "created_at": "2023-10-03T22:59:07.606Z",
+        "updated_at": "2023-10-04T03:41:54.747Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "c27f62d7-595d-4177-a186-205c7c4a719a",
+        "date": "2023-10-03T06:05:54.405Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-03T08:57:56.308Z",
+        "updated_at": "2023-10-04T04:28:40.242Z",
+        "service_id": "97e9b90e-b1d4-4a66-be0c-bc4e0b26d590",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "25cfb015-eab7-4c56-a5ea-81b67a4b836d"
+      },
+      {
+        "id": "d0914331-ea47-45f7-b9d0-e901ef79c6d0",
+        "date": "2023-10-04T01:00:44.113Z",
+        "status": "In Progress",
+        "created_at": "2023-10-03T21:56:15.281Z",
+        "updated_at": "2023-10-03T13:38:03.883Z",
+        "service_id": "6a340c2e-35c8-414c-a4c3-efaa44437688",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5c66712c-1918-407c-a97c-b1050e64a1c6"
+      },
+      {
+        "id": "e2eee4fd-3bcd-4cb0-8689-29726829c96b",
+        "date": "2023-10-03T23:51:48.194Z",
+        "status": "Completed",
+        "created_at": "2023-10-04T01:43:28.502Z",
+        "updated_at": "2023-10-03T22:38:16.554Z",
+        "service_id": "c7f6b80e-b2e8-4888-bfe8-5d3abd644450",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5c66712c-1918-407c-a97c-b1050e64a1c6"
+      },
+      {
+        "id": "e1115dcc-911e-4105-b2f9-f8d1bf9be779",
+        "date": "2023-10-03T09:59:42.187Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-03T18:15:28.578Z",
+        "updated_at": "2023-10-03T10:07:13.479Z",
+        "service_id": "97e9b90e-b1d4-4a66-be0c-bc4e0b26d590",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "53c696a9-e377-4eab-b1f3-2daafb602530"
+      },
+      {
+        "id": "9acebd86-09e5-4739-9770-12ea61b2f9a9",
+        "date": "2023-10-03T07:11:34.578Z",
+        "status": "Rescheduled",
+        "created_at": "2023-10-03T23:56:20.678Z",
+        "updated_at": "2023-10-03T12:21:29.547Z",
+        "service_id": "6a340c2e-35c8-414c-a4c3-efaa44437688",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "53c696a9-e377-4eab-b1f3-2daafb602530"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4ee833e3-b7d9-4bcb-bef5-c7bea727818c",
+        "email": "Troy.Gleason@roq.tech",
+        "firstName": "Tara",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55003872",
+        "tenantId": null
+      },
+      {
+        "reference": "3b674c0c-38ce-4240-9f2c-3b5abbbe6ce0",
+        "email": "Patricia96@roq.tech",
+        "firstName": "Hazle",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/376.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f2b4f4e5-71ce-420e-a480-a1a54ee641cd",
+        "email": "Caroline.Rutherford@roq.tech",
+        "firstName": "Alphonso",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/634.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3b80d09d-c0c2-44c9-9743-7a8bb77cce90",
+        "email": "Alysa_Hagenes@roq.tech",
+        "firstName": "Sabrina",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33571532",
+        "tenantId": null
+      },
+      {
+        "reference": "be793464-f3d9-4a67-9481-1fb1fadd0cd0",
+        "email": "Aracely.Hansen@roq.tech",
+        "firstName": "Nathanael",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/298.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
